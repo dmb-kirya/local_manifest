@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
+    
+        <!-- Fetching sources -->
+        <remote name="dmb-kirya"
+                fetch="https://github.com/dmb-kirya" />
+        
+        <remote name="Evolution-X"
+                fetch="https://github.com/Evolution-X" />
+  
+        <remote name="Roxor-007"
+                fetch="https://gitlab.com/Roxor-007" />
+  
+        <!-- Trees -->
+        <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="dmb-kirya" revision="tirimbino" />
+        <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="dmb-kirya" revision="tirimbino" />
+        <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="dmb-kirya" revision="A13" />
+        <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="dmb-kirya" revision="A13" />
 
-<!-- Trees -->
-<project path="device/xiaomi/alioth" name="dmb-kirya/device_xiaomi_alioth.git" remote="github" revision="tirimbino" />
-<project path="device/xiaomi/sm8250-common" name="dmb-kirya/device_xiaomi_sm8250-common.git" remote="github" revision="tirimbino" />
-<project path="vendor/xiaomi/sm8250-common" name="dmb-kirya/vendor_xiaomi_sm8250-common.git" remote="github" revision="A13" />
-<project path="vendor/xiaomi/alioth" name="dmb-kirya/vendor_xiaomi_alioth.git" remote="github" revision="A13" />
+        <!-- Devicesettings -->
+        <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="Evolution-X" revision="tiramisu" />
 
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-WeebX" name="WeebX_clang16" remote="Roxor-007" revision="main" clone-depth="1" />
+  
 </manifest>
