@@ -17,6 +17,7 @@
         <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="dmb-kirya" revision="tirimbino" />
         <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="dmb-kirya" revision="A13" />
         <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="dmb-kirya" revision="A13" />
+        <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250" remote="dmb-kirya" revision="stable" />
 
         <!-- Devicesettings -->
         <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="Evolution-X" revision="tiramisu" />
