@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Trees -->
+<project path="device/xiaomi/alioth" name="dmb-kirya/device_xiaomi_alioth.git" remote="github" revision="tirimbino" />
+<project path="device/xiaomi/sm8250-common" name="dmb-kirya/device_xiaomi_sm8250-common.git" remote="github" revision="tirimbino" />
+<project path="vendor/xiaomi/sm8250-common" name="dmb-kirya/vendor_xiaomi_sm8250-common.git" remote="github" revision="A13" />
+<project path="vendor/xiaomi/alioth" name="dmb-kirya/vendor_xiaomi_alioth.git" remote="github" revision="A13" />
+
+</manifest>
