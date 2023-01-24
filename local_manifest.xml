@@ -25,10 +25,10 @@
         <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="dmb-kirya" revision="A13" />
         <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250" remote="dmb-kirya" revision="stable" />
 
-        <!-- HALS -->
-        <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="PixelExperience" revision="thirteen" />
-        <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="PixelExperience" revision="thirteen" />
-        <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="PixelExperience" revision="thirteen" />
+        <!-- HALS
+         <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="PixelExperience" revision="thirteen" />
+         <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="PixelExperience" revision="thirteen" />
+         <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="PixelExperience" revision="thirteen" /> -->
        
         <!-- Devicesettings -->
         <remove-project name="packages/resources/devicesettings" />
