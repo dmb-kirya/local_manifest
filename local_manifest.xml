@@ -30,8 +30,8 @@
          <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="PixelExperience" revision="thirteen" />
          <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="PixelExperience" revision="thirteen" /> -->
        
-        <!-- Devicesettings -->
-        <remove-project name="packages/resources/devicesettings" />
+        <!-- Devicesettings
+        <remove-project name="packages/resources/devicesettings" /> -->
         <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="Evolution-X" revision="tiramisu" />
 
         <!-- Clang -->
