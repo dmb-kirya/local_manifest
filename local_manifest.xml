@@ -36,7 +36,10 @@
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-WeebX" name="WeebX_clang16" remote="Roxor-007" revision="main" clone-depth="1" />
-    
+        
+        <!-- HW Xiaomi -->
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelExperience" revision="thirteen" />
+
         <!-- GApps
         <remove-project name="vendor/gapps" /> -->
         <project path="vendor/gapps-bootleg" name="android_vendor_gapps" remote="arrowos-project" revision="arrow-13.0" />
