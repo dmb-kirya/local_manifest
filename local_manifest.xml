@@ -21,7 +21,7 @@
         <remote name="ArrowOS"
                 fetch="https://github.com/ArrowOS-Devices" />
     
-        <remote name=DintzOnly"
+        <remote name="DintzOnly"
                 fetch="https://gitlab.com/endangsoekamti021" />
 
         <!-- Trees -->
