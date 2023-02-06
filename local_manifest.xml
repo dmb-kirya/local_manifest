@@ -6,8 +6,8 @@
         <remote name="dmb-kirya"
                 fetch="https://github.com/dmb-kirya" />
         
-        <remote name="Evolution-X"
-                fetch="https://github.com/Evolution-X" />
+        <remote name="lineageos"
+                fetch="https://github.com/LineageOS" />
   
         <remote name="Roxor-007"
                 fetch="https://gitlab.com/Roxor-007" />
@@ -35,7 +35,7 @@
        
         <!-- Devicesettings
         <remove-project name="packages/resources/devicesettings" /> -->
-        <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="Evolution-X" revision="tiramisu" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineageos" revision="lineage-20.0" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-WeebX" name="WeebX_clang16" remote="Roxor-007" revision="main" clone-depth="1" />
