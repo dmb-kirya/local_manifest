@@ -21,6 +21,9 @@
         <remote name="ArrowOS"
                 fetch="https://github.com/ArrowOS-Devices" />
     
+        <remote name=DintzOnly"
+                fetch="https://gitlab.com/endangsoekamti021" />
+
         <!-- Trees -->
         <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="dmb-kirya" revision="tirimbino" />
         <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="dmb-kirya" revision="tirimbino" />
@@ -39,7 +42,8 @@
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-WeebX" name="WeebX_clang16" remote="Roxor-007" revision="main" clone-depth="1" />
-        
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="DintzOnly" revision="master" clone-depth="1" />
+
         <!-- HW Xiaomi -->
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ArrowOS" revision="arrow-13.0" />
 
