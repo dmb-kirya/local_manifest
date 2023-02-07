@@ -30,17 +30,11 @@
         <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="dmb-kirya" revision="A13" />
         <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="dmb-kirya" revision="A13" />
         <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250" remote="dmb-kirya" revision="stable" />
-
-        <!-- HALS
-         <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="PixelExperience" revision="thirteen" />
-         <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="PixelExperience" revision="thirteen" />
-         <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="PixelExperience" revision="thirteen" /> -->
        
-        <!-- Devicesettings
-        <remove-project name="packages/resources/devicesettings" /> -->
+        <!-- Devicesettings -->
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineageos" revision="lineage-20.0" />
 
-        
+        <!-- Ant-wireless -->
         <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineageos" revision="lineage-19.0" />
         
         <!-- Clang -->
@@ -50,8 +44,7 @@
         <!-- HW Xiaomi -->
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ArrowOS" revision="arrow-13.0" />
 
-        <!-- GApps
-        <remove-project name="vendor/gapps" /> -->
+        <!-- GApps -->
         <project path="vendor/gapps-bootleg" name="android_vendor_gapps" remote="arrowos-project" revision="arrow-13.0" />
   
 </manifest>
